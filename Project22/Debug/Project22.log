@@ -1,0 +1,47 @@
+﻿Build started 30/12/2021 11:50:34 ص.
+     1>Project "C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Project22\Project22.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTexture.cpp camera.cpp heightMap.cpp Model_3DS.cpp Source.cpp texture.cpp
+         texture.cpp
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\texture.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Source.cpp
+         Model_3DS.cpp
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\model_3ds.cpp(160): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\model_3ds.cpp(182): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\model_3ds.cpp(212): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\model_3ds.cpp(891): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         heightMap.cpp
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\heightmap.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\heightmap.cpp(10): warning C4101: 'i' : unreferenced local variable
+         camera.cpp
+         3DTexture.cpp
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\3dtexture.cpp(61): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\3dtexture.cpp(61): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\3dtexture.cpp(65): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\3dtexture.cpp(77): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>c:\users\asus\documents\visual studio 2012\projects\project22\project22\3dtexture.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Debug\Project22.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Debug\Project22.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Debug\Project22.lib" /MACHINE:X86 Debug\3DTexture.obj
+         Debug\camera.obj
+         Debug\heightMap.obj
+         Debug\Model_3DS.obj
+         Debug\Source.obj
+         Debug\texture.obj
+         Project22.vcxproj -> C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Debug\Project22.exe
+     1>Done Building Project "C:\Users\ASUS\documents\visual studio 2012\Projects\Project22\Project22\Project22.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.65
